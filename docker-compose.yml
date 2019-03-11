@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  transcriber:
+    image: yurah.azurecr.io/kolab-worker-transcriber:$version
+    environment:
+      - NODE_ENV=production

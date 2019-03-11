@@ -1,0 +1,41 @@
+{
+  "name": "transcriber",
+  "version": "1.0.0",
+  "description": "Generate the text transcription of a video or audio content in a URL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "homepage": "https://github.com/odelucca/yurah-transcriber#readme",
+  "bugs": {
+    "url": "https://github.com/odelucca/yurah-transcriber/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:odelucca/yurah-transcriber.git"
+  },
+  "author": "odelucca",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "@autolotto/bunnyhop": "^2.4.5",
+    "esm": "^3.0.84",
+    "joi": "^14.0.2",
+    "request": "^2.88.0",
+    "watson-developer-cloud": "^3.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
